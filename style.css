@@ -112,31 +112,16 @@ body {
     color: hsl(14, 45%, 36%);
   }
   font-family: "Outfit", sans-serif;
-  ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    .m {
-      color: hsl(14, 45%, 36%);
+    table{
+    width: 85%;
+    border-spacing: 15px;
+    .nn{
+      color:hsl(14, 45%, 36%) ;
       font-weight: 700;
     }
-    .mm {
-      margin-left: -220px;
-    }
-  }
-  .ch1,
-  .ch2,
-  .ch3 {
-    border-bottom: solid 1px hsl(30, 18%, 87%);
+    
   }
 
-  .ch2,
-  .ch4 {
-    margin-left: -25px;
-  }
-  .ch3 {
-    margin-left: -15px;
-  }
 }
 @media (max-width: 375px) {
   .parent {
@@ -163,30 +148,7 @@ body {
       color: hsl(14, 45%, 36%);
     }
     font-family: "Outfit", sans-serif;
-    ul {
-      list-style: none;
-      display: flex;
-      justify-content: space-evenly;
-      .m {
-        color: hsl(14, 45%, 36%);
-        font-weight: 700;
-      }
-      .mm {
-        margin-left: -150px;
-      }
-    }
-    .ch2,
-    .ch4 {
-      margin-left: -25px;
-    }
-    .ch3 {
-      margin-left: -15px;
-    }
-    .ch1,
-    .ch2,
-    .ch3 {
-      border-bottom: solid 1px hsl(30, 18%, 87%);
-    }
+  
   }
   .part4 {
     ol {
